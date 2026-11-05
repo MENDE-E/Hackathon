@@ -1,0 +1,14 @@
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>データ入力フォーム</title>
+</head>
+<body>
+    <h1>アンケートフォーム</h1>
+    <form action="/submit" method="post">
+        <p>名前: <input type="text" name="username" required></p>
+        <p>内容: <textarea name="message" required></textarea></p>
+        <button type="submit">送信して保存</button>
+    </form>
+</body>
+</html>
